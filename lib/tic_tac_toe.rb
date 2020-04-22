@@ -37,6 +37,8 @@ def move(board, index, character)
 end
 
 def current_player(board)
+  x_cells = board.select{|cell| cell == 'X'}.length
+  o_cells = board.select{|cell| cell == 'O'}.length
 end
 
 def turn_count(board)
