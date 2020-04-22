@@ -39,6 +39,8 @@ end
 def current_player(board)
   x_cells = board.select{|cell| cell == 'X'}.length
   o_cells = board.select{|cell| cell == 'O'}.length
+
+  x_cells >= o_cells ? 'X' : 'O'
 end
 
 def turn_count(board)
