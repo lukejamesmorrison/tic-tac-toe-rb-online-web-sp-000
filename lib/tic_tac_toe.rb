@@ -37,6 +37,7 @@ def move(board, index, character)
 end
 
 def turn_count(board)
+  board.select{|cell| cell == ' '}.length == 9
 end
 
 def valid_move?(board, index)
