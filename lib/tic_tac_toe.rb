@@ -36,6 +36,9 @@ def move(board, index, character)
   end
 end
 
+def turn_count(board)
+end
+
 def valid_move?(board, index)
   if index > board.length - 1 || index < 0
     return false
