@@ -114,4 +114,4 @@ end
 # board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 # turn(board);
 
-puts input_to_index(gets.strip)
+puts gets.strip
