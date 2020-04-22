@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
 ]
 
 ##
-# Display the board
+# Display the board.
 ##
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -25,7 +25,7 @@ end
 ##
 # Convert user input to board index.
 #
-# The input bust me a string representation of an integer between 1 and 9.
+# The input must me a string representation of an integer between 1 and 9.
 ##
 def input_to_index(input)
   index = input.to_i - 1
@@ -33,7 +33,7 @@ def input_to_index(input)
 end
 
 ##
-# Conduct a single move on the board.
+# Conduct a single move on the board at 'index' with 'character'.
 ##
 def move(board, index, character)
   if board[index] === " "
