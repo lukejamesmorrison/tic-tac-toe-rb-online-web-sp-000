@@ -36,6 +36,9 @@ def move(board, index, character)
   end
 end
 
+def current_player(board)
+  ene
+
 def turn_count(board)
   board.reject{|cell| cell == ' '}.length
 end
