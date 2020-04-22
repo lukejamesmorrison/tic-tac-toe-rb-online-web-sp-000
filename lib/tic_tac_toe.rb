@@ -30,6 +30,13 @@ def move(board, index, character)
   end
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
+  index = input_to_index(gets.strip)
+
+  valid_move?(board, index) ? move(board, index) : turn(board)
+end
+
 def valid_move?(board, index)
   if index > board.length - 1 || index < 0
     return false
