@@ -11,8 +11,6 @@ WIN_COMBINATIONS = [
   [6,4,2]  # Bottom-Left cross
 ]
 
-TURN_COUNT = 0
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
