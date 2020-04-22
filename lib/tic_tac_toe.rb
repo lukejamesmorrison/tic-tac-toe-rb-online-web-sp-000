@@ -24,7 +24,7 @@ def turn(board)
   index = input_to_index(gets.strip)
   valid_move?(board, index) ? move(board, index) : turn(board)
 end
-
+board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 turn(board);
 
 def input_to_index(input)
