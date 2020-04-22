@@ -111,7 +111,7 @@ def turn(board)
   valid_move?(board, index) ? move(board, index, player) : turn(board)
 end
 
-board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
-turn(board);
+# board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+# turn(board);
 
 puts input_to_index(gets.strip)
