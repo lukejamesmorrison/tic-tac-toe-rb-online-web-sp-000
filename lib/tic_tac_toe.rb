@@ -110,5 +110,6 @@ def turn(board)
   player = current_player(board)
   valid_move?(board, index) ? move(board, index, player) : turn(board)
 end
+
 board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 turn(board);
