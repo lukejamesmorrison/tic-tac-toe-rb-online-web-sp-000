@@ -25,6 +25,8 @@ def turn(board)
   valid_move?(board, index) ? move(board, index) : turn(board)
 end
 
+turn(board);
+
 def input_to_index(input)
   input.to_i - 1
 end
